@@ -1,0 +1,24 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "CDN for QuestModsVR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuestModsVR/CDN.git"
+  },
+  "author": "QuestModsVR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuestModsVR/CDN/issues"
+  },
+  "homepage": "https://github.com/QuestModsVR/CDN#readme",
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "express": "^4.18.2",
+    "prisma": "^5.9.1"
+  }
+}
