@@ -10,5 +10,5 @@ datasource db {
 model pfp {
   id      Int    @id @default(autoincrement())
   user_id String @db.Text
-  image   String @db.Text
+  image   Bytes
 }
